@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
       - name: postgres
-        image: dmsysop/kube-news:v2
+        image: dmsysop/kube-news:{{TAG}}
         ports:
         - containerPort: 8080
         env:
